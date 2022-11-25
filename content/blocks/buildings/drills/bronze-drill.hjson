@@ -1,0 +1,19 @@
+name: Bronze Drill
+description: Tier3 Drill.
+health: 200
+size:2
+hasPower: true
+hasLiquids: false
+tier: 4
+drillTime: 2000
+itemCapacity: 20
+consumes:{
+ power: 2.4
+}
+requirements: [
+  bronze-drill-head/1
+  copper/100
+  mc/400
+]
+category: production
+mapColor: ffff00

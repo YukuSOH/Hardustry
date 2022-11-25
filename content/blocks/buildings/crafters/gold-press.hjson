@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Gold Press
+description: This facility produces GoldPlate.
+health: 200
+size: 2
+hasItems: true
+craftTime:300
+updateEffect: smeltsmoke
+itemCapacity: 4
+consumes:{
+ power: 1.6
+ items: {
+  items: [
+   gold/3
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ bronze-piston/2
+ small-bronze-pipe/6
+ mc/400
+]
+category: crafting
+outputItem: gold-plate/2
+canOverdrive: false
+mapColor: ffff00

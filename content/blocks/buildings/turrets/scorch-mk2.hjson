@@ -1,0 +1,41 @@
+type: ItemTurret
+name: Scorch Mk2
+description: Scorch Mk2
+health: 400
+size: 1
+consumes:{
+ power: 0.2
+}
+reloadTime: 6
+targetAir: false
+targetGround:true
+range: 60
+craftTime: 8
+inaccuracy: 0
+rotatespeed: 60
+shots:1
+solid: true
+ammoTypes: {
+ coal-dust: {
+  type: BasicBulletType
+  lifetime: 25
+  speed: 3
+  damage: 13
+  shootEffect: shootSmall
+  smokeEffect: shootSmallFlame
+  despawnEffect: none
+  width: 0.0
+  height: 0.0
+  pierce: true
+  status: burning
+  ammoMultiper: 3
+ }
+}
+requirements: [
+ steel-plate/200
+ metaglass/40
+ zinc/120
+ mc/300
+]
+category: turret
+mapColor: ffff00

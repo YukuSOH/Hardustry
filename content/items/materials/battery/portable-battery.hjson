@@ -1,0 +1,5 @@
+type: material
+name: PortableBattery
+description: BasicBattery
+cost: 0.5
+color: ffa844

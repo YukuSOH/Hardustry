@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Aluminum Smelter
+description: Smelts Bauxite into Aluminum.
+health: 500
+size: 2
+hasItems: true
+craftTime:720
+updateEffect: smeltsmoke
+itemCapacity: 8
+consumes:{
+ power: 1.2
+ items: {
+  items: [
+   coal/1
+   bauxite/2
+  ]
+ }
+}
+requirements: [
+ steel/150
+ graphite/30
+ mc/400
+]
+category: crafting
+outputItem: aluminum/2
+canOverdrive: false
+mapColor: ffff00ff

@@ -1,0 +1,20 @@
+type:Drill
+name: Aluminum Drill
+description: Aluminum Drill
+health: 200
+size:2
+hasPower: true
+hasLiquids: false
+craftTime: 4500
+tier: 4
+itemCapacity: 20
+drillTime: 4500
+consumes:{
+ power: 2.4
+}
+requirements: [
+  aluminum/150
+  mc/300
+]
+category: production
+mapColor: ffff00

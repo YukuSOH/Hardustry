@@ -1,0 +1,15 @@
+type: GenericCrafter
+name: TreePlantingFacility
+description: This Facility produces Wood.
+health: 50
+size: 3
+hasItems: true
+craftTime: 1200
+itemCapacity: 1
+requirements: [
+ copper/300
+ 100mc/4
+]
+category: production
+outputItem: wood/5
+mapColor: ffff00

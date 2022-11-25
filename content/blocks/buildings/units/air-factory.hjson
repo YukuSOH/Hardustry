@@ -1,0 +1,19 @@
+itemCapacity: 200
+plans: [
+ {
+    unit: mono
+    requirements: [
+      bronze-plate/70
+      copper/120
+      charged-portable-battery/5
+      mc/200
+    ]
+    time: 3600
+  }
+]
+requirements: [
+ bronze/120
+ lead/120
+ tin/100
+ mc/300
+]

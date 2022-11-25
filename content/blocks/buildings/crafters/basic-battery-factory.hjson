@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: BasicBattery Factory
+description: Produces BasicBattery from Tin, Lead and CopperWire.
+health: 300
+size: 2
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+itemCapacity: 30
+consumes:{
+ power: 0.2
+ items: {
+  items: [
+   tin/5
+   lead/10
+   copper-wire/2
+  ]
+ }
+}
+requirements: [
+ bronze-hull/1
+ mc/200
+]
+category: crafting
+outputItem: portable-battery/1
+canOverdrive: false
+mapColor: ffff00

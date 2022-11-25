@@ -1,0 +1,5 @@
+type: material
+name: PrimitiveBlastFurnaceBlock
+description: FireBricks
+color: efdfd4
+cost: 2.0

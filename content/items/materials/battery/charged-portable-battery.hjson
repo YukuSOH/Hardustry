@@ -1,0 +1,5 @@
+type: material
+name: ChargedPortableBattery
+description: ChargedPortableBattery
+cost: 0.5
+color: ffa844
