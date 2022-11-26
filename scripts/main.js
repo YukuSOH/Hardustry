@@ -1,4 +1,4 @@
 require("blocks/production/TierDrill");
 require("blocks/storage/HCoreBlock");
 
-require("campaign/Rules");
+require("campaign/HTechTree");
