@@ -1,0 +1,48 @@
+localizedName: SerpuloParallel
+mesh: {
+  type: NoiseMesh
+  planet: serpulo-parallel
+  divisions: 6
+  radius: 1
+  color1: 29302b
+  color2: 39403b
+  seed: 60
+  octaves: 10
+  persistence: 0.8
+  scale: 0.5
+  mag: 1.5
+}
+parent: sun
+radius: 1
+sectorSize: 3
+launchCapacityMultiplier: 0.5
+sectorSeed: 2
+allowWaves: true
+allowWaveSimulation: true
+allowSectorInvasion: true
+allowLaunchSchematics: true
+enemyCoreSpawnReplace: true
+allowLaunchLoadout: true
+prebuildBase: false
+#ruleSetter
+iconColor: 7d4dff
+atmosphereColor: 3c1b8f
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
+startSector: 15
+alwaysUnlocked: true
+#landCloudColor: 0.5
+solarSystem: sun
+accessible: true
+orbitSpacing: 12
+minZoom: 0.6
+#launchCandidates: []
+
+generator: {
+  min: 100
+  max: 100
+  radMin: 480
+  radMax: 480
+  seed: 65000
+  berylChance: 0
+}
