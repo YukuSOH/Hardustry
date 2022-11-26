@@ -1,0 +1,14 @@
+Vars.content.planet("serpulo-paralle").techTree =
+nodeRoot("serpulo-parallel", coreShard, ()=> {
+    node(conveyor, ()=>{
+        node(junction, ()=>{
+            node(distributor);
+            node(sorter, ()=>{
+                node(invertedSorter);
+                node(overflowGate, ()=> {
+                    node(underflowGate);
+                });
+            });
+        });
+    });
+});
