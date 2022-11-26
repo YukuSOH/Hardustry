@@ -9,7 +9,11 @@ itemCapacity: 10
 drillTime: 4200
 requirements: [
   copper/75
-  mc/75
+  mc/100
+]
+researchCost: [
+  copper/35
+  mc/10
 ]
 category: production
 mapColor: ffff00
