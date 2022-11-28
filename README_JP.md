@@ -22,11 +22,8 @@ Hardustryはレシピ、資源、工場、そしてタレットを追加しま�
 [Mindustryのライセンス](https://github.com/Anuken/Mindustry/blob/master/LICENSE) 
 と [Hardustryのライセンス](/LICENSE) をお読みください。
 
-Hardustryは、「プレイ」モード(Campaign)には対応してません。しかし、カスタムゲームでプレイすることは可能です。
-
-1. 「カスタムプレイ」を選択する。  
-2. 「examplemap1」というマップを選択する。  
-3. 「プレイ」を押す。
+### インストール
+`hardustry.zip` をmodフォルダに入れることでプレイ可能です。
 
 ## 追加されたアイテム  
 ![hardustry](https://user-images.githubusercontent.com/80609135/115100443-a00c0900-9f77-11eb-8d30-dee606ebe873.png)
