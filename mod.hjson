@@ -4,4 +4,4 @@ author: "YukuSOH"
 description: "Hardustry makes Mindustry hard."
 version: "0.117"
 minGameVersion: "140.4"
-hideBrowser: true
+hideBrowser: false
