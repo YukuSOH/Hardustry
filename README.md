@@ -25,11 +25,8 @@ You need to read
 [Mindustry License](https://github.com/Anuken/Mindustry/blob/master/LICENSE) 
 and [Hardustry License](/LICENSE) before using this mod.
 
-Hardustry doesn't support "Campaign". But you can play "CustomGame".  
-
-1. Select "CustomGame".
-2. Select "examplemap1".  
-3. Push "Play".
+### Installation
+Paste the `hardustry.zip` in your mod folder.
 
 ## Additional Items  
 ![hardustry](https://user-images.githubusercontent.com/80609135/115100443-a00c0900-9f77-11eb-8d30-dee606ebe873.png)
