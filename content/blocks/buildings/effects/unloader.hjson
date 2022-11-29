@@ -3,4 +3,5 @@ requirements: [
  copper/10
  mc/30
 ]
+alwaysUnlocked: true
 health: 70
