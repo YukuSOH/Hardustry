@@ -1,9 +1,9 @@
-type: SolarGenerator
-name: Advanced Wind Power Generator
+name: Advanced Wind Turbine
 description: This generator produces power from wind.
 size: 2
 hasPower: true
-powerProduction: 0.6
+powerProduction: 1.2
+minEfficiency: 0.2
 requirements: [
  bronze/20
  lead/45

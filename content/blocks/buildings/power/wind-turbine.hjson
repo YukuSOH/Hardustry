@@ -1,9 +1,7 @@
-type: SolarGenerator
-name: WindPower Generator
+name: Wind Turbine
 description: This generator produces a little power from wind.
 size: 2
-hasPower: true
-powerProduction: 0.2
+powerProduction: 0.6
 requirements: [
  copper/40
  lead/30
