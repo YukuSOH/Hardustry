@@ -14,9 +14,3 @@ outputItem: mc/1
 category: crafting
 canOverdrive: false
 mapColor: ffff00
-research: {
-  parent: housingdistrict
-  requirements: [
-    copper/100
-  ]
-}

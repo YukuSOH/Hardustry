@@ -5,9 +5,9 @@ hasPower: true
 powerProduction: 1.2
 minEfficiency: 0.2
 requirements: [
- bronze/20
- lead/45
- mc/75
+  bronze/20
+  lead/45
+  mc/75
 ]
 category: power
 health: 100

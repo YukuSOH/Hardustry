@@ -1,7 +1,13 @@
 name: Unloader(Hardmode)
 requirements: [
- copper/10
- mc/30
+  copper/10
+  mc/30
 ]
-alwaysUnlocked: true
+research: {
+  parent: duo
+  requirements: [
+    copper/10
+    mc/30
+  ]
+}
 health: 70

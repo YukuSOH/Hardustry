@@ -1,8 +1,13 @@
 name: Battery(Hardmode)
 requirements: [
-  copper/5
+  copper/10
   lead/20
-  mc/30
+  mc/20
+]
+researchCost: [
+  copper/10
+  lead/20
+  mc/20
 ]
 consumes: {
  powerBuffered: 1000.0

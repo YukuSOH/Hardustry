@@ -6,17 +6,23 @@ size: 2
 hasItems: true
 craftTime:900
 itemCapacity: 400
-consumes:{
- power: 0.2
- items: {
-  items: [
-   copper/150
-  ]
- }
+consumes: {
+  power: 0.2
+  items: {
+    items: [
+      copper/100
+    ]
+  }
 }
 requirements: [
- copper/175
- mc/175
+  copper/150
+  lead/30
+  mc/150
+]
+researchCost: [
+  copper/150
+  lead/30
+  mc/50
 ]
 category: crafting
 outputItem: mc/50

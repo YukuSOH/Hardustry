@@ -1,14 +1,18 @@
 name: Quarry
-description: A Quarry that mines ore with workers. (Tier1 Drill)
+description: Mines ore with workers. (Tier1 Drill)
 health: 50
 size:2
-hasPower: false
+hasPower: true
 hasLiquids: false
 tier: 1
-itemCapacity: 10
+itemCapacity: 2
 drillTime: 4200
+consumes: {
+  power: 0.1
+}
 requirements: [
   copper/75
+  lead/20
   mc/100
 ]
 researchCost: [

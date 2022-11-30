@@ -3,10 +3,16 @@ health: 160
 tier: 3
 drillTime: 2900
 hasPower: true
-consumes:{
- power: 0.3
+consumes: {
+  power: 0.3
 }
 requirements: [
   copper/150
-  mc/175
+  lead/100
+  mc/200
+]
+researchCost: [
+  copper/150
+  lead/100
+  mc/200
 ]
