@@ -3,11 +3,8 @@ requirements: [
   copper/10
   mc/30
 ]
-research: {
-  parent: duo
-  requirements: [
-    copper/10
-    mc/30
-  ]
-}
+researchCost: [
+  copper/20
+  mc/60
+]
 health: 70
