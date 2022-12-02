@@ -1,16 +1,16 @@
 type: GenericCrafter
-name: Trade Center (Crops)
-description: This facility trades Food for MC.
+name: Trade Center(iron)
+description: This facility trades Iron for MC.
 health: 400
 size: 2
 hasItems: true
 craftTime: 900
-itemCapacity: 400
+itemCapacity: 200
 consumes: {
   power: 0.2
   items: {
     items: [
-      crops/200
+      iron/100
     ]
   }
 }
@@ -25,6 +25,6 @@ researchCost: [
   mc/50
 ]
 category: crafting
-outputItem: mc/25
+outputItem: mc/100
 canOverdrive: false
 mapColor: ffff00
