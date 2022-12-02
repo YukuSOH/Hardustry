@@ -1,7 +1,6 @@
 planet: "serpulo-parallel"
 localizedName: "Ground Zero (Parallel)"
 sector: 15
-#allowLaunchLoadout: true
 alwaysUnlocked: true
 addStartingItems: true
 captureWave: 10
