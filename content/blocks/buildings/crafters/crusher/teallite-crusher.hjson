@@ -1,6 +1,6 @@
-name: Copper Crusher
-description: This facility produces CopperDust.
-health: 100
+name: Tin Crusher
+description: This facility produces TinDust.
+health: 200
 size: 2
 hasItems: true
 craftTime: 900
@@ -9,7 +9,7 @@ consumes: {
   power: 0.05
   items: {
     items: [
-      copper/1
+      teallite/1
     ]
   }
 }
@@ -19,10 +19,11 @@ requirements: [
   mc/100
 ]
 researchCost: [
-  copper/200
+  copper/120
+  lead/30
   mc/100
 ]
 category: crafting
-outputItem: copper-dust/1
+outputItem: teallite-dust/1
 canOverdrive: false
 mapColor: ffff00
