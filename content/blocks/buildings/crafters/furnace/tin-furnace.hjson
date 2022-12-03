@@ -1,0 +1,33 @@
+#type: HeatCrafter
+name: Tin Furnace
+description: Make Tin from Tin Dust.
+health: 100
+size: 2
+hasItems: true
+hasPower: true
+craftTime: 180
+itemCapacity: 8
+heatRequirement: 6
+maxEfficiency: 1
+consumes: {
+  power: 0.05
+  items: {
+    items: [
+      tin-dust/1
+    ]
+  }
+}
+requirements: [
+  copper/120
+  lead/30
+  mc/120
+]
+researchCost: [
+  copper/120
+  lead/30
+  mc/120
+]
+category: crafting
+outputItem: tin/1
+canOverdrive: false
+mapColor: ffff00
