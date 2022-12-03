@@ -1,0 +1,25 @@
+type: HeatProducer
+name: Low Electric Heater
+description: This facility makes bronze from BronzeDust.
+health: 30
+size: 1
+hasItems: true
+hasPower: true
+itemCapacity: 8
+heatOutput: 1
+consumes: {
+  power: 0.05
+}
+requirements: [
+  copper/40
+  lead/60
+  mc/20
+]
+researchCost: [
+  copper/40
+  lead/60
+  mc/20
+]
+category: crafting
+canOverdrive: false
+mapColor: ffff00
