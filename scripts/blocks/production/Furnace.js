@@ -16,4 +16,5 @@ function Furnace(name) {
     return block;
 }
 
+const bronzeFurnace = Furnace("bronze-furnace");
 const tinFurnace = Furnace("tin-furnace");

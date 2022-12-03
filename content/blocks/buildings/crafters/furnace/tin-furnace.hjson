@@ -20,12 +20,12 @@ consumes: {
 requirements: [
   copper/120
   lead/30
-  mc/120
+  mc/100
 ]
 researchCost: [
   copper/120
   lead/30
-  mc/120
+  mc/100
 ]
 category: crafting
 outputItem: tin/1
