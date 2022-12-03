@@ -4,15 +4,15 @@ tier: 3
 drillTime: 2900
 hasPower: true
 consumes: {
-  power: 0.3
+  power: 0.2
 }
 requirements: [
   copper/150
   lead/100
-  mc/200
+  mc/150
 ]
 researchCost: [
   copper/150
   lead/100
-  mc/200
+  mc/150
 ]

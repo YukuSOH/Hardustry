@@ -1,6 +1,6 @@
 name: Copper Wall(Hardmode)
 requirements: [
      copper/12
-     mc/30
+     mc/20
 ]
 health: 300

@@ -6,8 +6,9 @@ requirements: [
 ]
 
 researchCost: [
-  lead/2
-  mc/3
+  copper/2
+  lead/6
+  mc/6
 ]
 laserRange: 4
 maxNodes: 4

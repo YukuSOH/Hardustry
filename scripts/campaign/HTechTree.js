@@ -15,9 +15,9 @@ const SerpuloParallelTechTree = extend(SerpuloTechTree, {
     load(){
         Vars.content.planet("serpulo-parallel").techTree =
         nodeRoot("serpulo-parallel", Blocks.coreShard, ()=>{
-            // ProduceBlock
+            // ProduceBlocks
             TechTree.node(HBlock("quarry"), ()=>{
-                // Drill
+                // Drills
                 TechTree.node(Blocks.mechanicalDrill);
                 // Energy
                 TechTree.node(HBlock("wind-turbine"), ()=>{
@@ -25,26 +25,26 @@ const SerpuloParallelTechTree = extend(SerpuloTechTree, {
                         TechTree.node(Blocks.battery);
                     });
                 });
+                // Factorys
+                TechTree.node(HBlock("copper-crusher"), ()=>{
+                    // Crushers
+                    TechTree.node(HBlock("teallite-crusher"));
+                    // DustMixers
+                    TechTree.node(HBlock("bronze-mixer-teallite"));
+                    // Furnaces
+                    TechTree.node(HBlock("bronze-furnace"));
+                });
             });
-            // Turret
+            // Turrets
             TechTree.node(Blocks.duo, ()=>{
                 TechTree.node(Blocks.copperWall);
             });
-            // Transfer
-            TechTree.node(Blocks.conveyor, ()=>{
-                TechTree.node(Blocks.junction, ()=>{
-                    TechTree.node(Blocks.router, ()=>{
-                        TechTree.node(Blocks.unloader);
-                    });
-                });
-            });
-            // Material
+            // Materials
             TechTree.node(Items.copper, ()=>{
                 // Liquids
                 // Misc
                 // Metals
                 TechTree.nodeProduce(Items.lead, ()=>{
-                    TechTree.nodeProduce(Items.coal, ()=>{});
                     TechTree.nodeProduce(HItem("zinc"), ()=>{
                         TechTree.nodeProduce(HItem("brass"), ()=>{});
                     });
@@ -54,11 +54,28 @@ const SerpuloParallelTechTree = extend(SerpuloTechTree, {
                 });
                 // Ores
                 TechTree.nodeProduce(HItem("teallite"), ()=>{
+                    TechTree.nodeProduce(Items.coal, ()=>{});
+                    // MainOres
                     TechTree.nodeProduce(HItem("tetrahedrite"), ()=>{
                     });
                 });
                 // Products
-                TechTree.nodeProduce(HItem("mc"), ()=>{});
+                TechTree.nodeProduce(HItem("mc"), ()=>{
+                    // Dusts
+                    TechTree.nodeProduce(HItem("copper-dust"), ()=>{
+                        TechTree.nodeProduce(HItem("teallite-dust"), ()=>{
+                            TechTree.nodeProduce(HItem("tin-dust"), ()=>{});
+                        });
+                    });
+                });
+            });
+            // Transfers
+            TechTree.node(Blocks.conveyor, ()=>{
+                TechTree.node(Blocks.junction, ()=>{
+                    TechTree.node(Blocks.router, ()=>{
+                        TechTree.node(Blocks.unloader);
+                    });
+                });
             });
         });
     }
