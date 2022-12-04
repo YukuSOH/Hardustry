@@ -1,8 +1,8 @@
-![mdm](https://user-images.githubusercontent.com/80609135/114258418-4f3d6300-9a01-11eb-987d-a028b4859385.PNG)
+![mdm](background.png)
 # Hardustry-mod
 ## Hardustryについて
 HardustryはGregtechを参考にして作られています。  
-このmodは、Mindustryを難しくします。
+このmodは、Mindustryを難しくします。 iOSはサポートしていません。
 
 Hardustryはレシピ、資源、工場、そしてタレットを追加します。
 そして既存のブロックの性能をHardustry仕様に変更しています。
@@ -20,7 +20,10 @@ Hardustryはレシピ、資源、工場、そしてタレットを追加しま�
 ## Hardustryをプレイする方法
 このmodを使用する前に、
 [Mindustryのライセンス](https://github.com/Anuken/Mindustry/blob/master/LICENSE) 
-と [Hardustryのライセンス](/LICENSE) をお読みください。
+と [Hardustryのライセンス](/LICENSE) を読んでください。
+
+### 注意
+インストールを行う場合、キャンペーンと研究のバックアップを取ってください。データが破損する可能性があります。
 
 ### インストール
 `hardustry.zip` をmodフォルダに入れることでプレイ可能です。

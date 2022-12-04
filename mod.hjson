@@ -1,7 +1,7 @@
 name: "hardustry"
 displayName: "Hardustry"
 author: "YukuSOH"
-description: "Hardustry makes Mindustry hard. \n\nPlease backup research and campaign data!!"
+description: "Hardustry makes Mindustry hard. \n\nPlease backup research and campaign data!! This mod doesn't support iOS"
 version: "0.118"
 minGameVersion: "140.4"
 hideBrowser: false

@@ -1,11 +1,11 @@
- ![mdm](https://user-images.githubusercontent.com/80609135/114258418-4f3d6300-9a01-11eb-987d-a028b4859385.PNG)
+ ![mdm](background.png)
 # Hardustry-mod
 
 #### [#日本語](/README_JP.md)
 
 ## What is this mod?
 Hardustry mod is based on gregtech, known as a mod of Minecraft.
-This mod makes Mindustry hard.
+This mod makes Mindustry hard. This mod doesn't support iOS.
 
 Hardustry Added Recipes, Materials, Factory and Turrets.
 And performance of original blocks are changed into Hardustry specifications.
@@ -24,6 +24,10 @@ But Kiln makes 1 metaglass from 5 sands, 5 leads, and 1 coal over 15 seconds.
 You need to read 
 [Mindustry License](https://github.com/Anuken/Mindustry/blob/master/LICENSE) 
 and [Hardustry License](/LICENSE) before using this mod.
+
+## Attention
+If you play Hardustry, Backup your research and campaign data.
+They could be broken.
 
 ### Installation
 Paste the `hardustry.zip` in your mod folder.
