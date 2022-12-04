@@ -8,7 +8,7 @@ consumes: {
 }
 requirements: [
   copper/150
-  lead/100
+  lead/50
   mc/150
 ]
 researchCost: [

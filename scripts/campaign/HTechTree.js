@@ -26,9 +26,12 @@ const SerpuloParallelTechTree = extend(SerpuloTechTree, {
                     });
                 });
                 // Factorys
-                TechTree.node(HBlock("copper-crusher"), ()=>{
+                TechTree.node(HBlock("trade-center-copper"), ()=>{
+                    // TradeCenters
                     // Crushers
-                    TechTree.node(HBlock("teallite-crusher"));
+                    TechTree.node(HBlock("copper-crusher"), ()=>{
+                        TechTree.node(HBlock("teallite-crusher"));
+                    });
                     // DustMixers
                     TechTree.node(HBlock("bronze-mixer-teallite"));
                     // Furnaces

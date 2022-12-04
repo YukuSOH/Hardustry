@@ -7,6 +7,9 @@ inaccuracy: 2.0
 rotatespeed: 100
 shots:1
 solid: true
+consumes: {
+  power: 0.1
+}
 ammoTypes: {
   copper: {
     speed: 2
@@ -15,9 +18,16 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     ammoMultiper: 2
   }
+  bronze: {
+    speed: 2
+    damage: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiper: 2
+  }
 }
 requirements: [
-  copper/200
+  copper/150
   lead/100
   mc/100
 ]
