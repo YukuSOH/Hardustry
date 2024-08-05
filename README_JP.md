@@ -1,5 +1,9 @@
 ![mdm](background.png)
 # Hardustry-mod
+
+## 重要
+このmodはサポートを終了しました。後継modは[こちら](https://github.com/makizakao/HardustryExtended)です。
+
 ## Hardustryについて
 HardustryはGregtechを参考にして作られています。  
 このmodは、Mindustryを難しくします。 iOSはサポートしていません。
