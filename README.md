@@ -3,6 +3,9 @@
 
 #### [#日本語](/README_JP.md)
 
+## Important
+This repository is no longer supported. A replacement mod is available [here](https://github.com/makizakao/HardustryExtended).
+
 ## What is this mod?
 Hardustry mod is based on gregtech, known as a mod of Minecraft.
 This mod makes Mindustry hard. This mod doesn't support iOS.
